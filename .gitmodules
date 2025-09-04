@@ -1,0 +1,3 @@
+[submodule "deepcraft-model-zoo-for-psoc-edge"]
+	path = deepcraft-model-zoo-for-psoc-edge
+	url = https://github.com/BannariPavi/deepcraft-model-zoo-for-psoc-edge.git
