@@ -1,3 +1,0 @@
-[submodule "test-sub-model"]
-    path = test-sub-model
-    url = https://github.com/BannariPavi/test-sub-model.git
