@@ -1,0 +1,16 @@
+{
+  "title": "Yolo v8n Pose",
+  "description": "Lightweight model for multi pose estimation",
+  "long_description": "Yolov8n_pose is a lightweight and efficient model designed for multi pose estimation tasks. It is part of the YOLO (You Only Look Once) family of models, known for their real-time object detection capabilities. The \"n\" in Yolov8n_pose indicates that it is a nano version, optimized for speed and resource efficiency, making it suitable for deployment on devices with limited computational power, such as mobile devices and embedded systems.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Pose Estimation"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24419_Illustration_human_robot_dark_show_RGB.png",
+  "main_image_id": "lowres_24419_Illustration_human_robot_dark_show_RGB.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "tbd"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}
