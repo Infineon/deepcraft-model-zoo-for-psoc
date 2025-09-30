@@ -1,0 +1,28 @@
+{
+  "title": "Testing",
+  "description": "testing",
+  "long_description": "testing",
+  "sensors": [
+    "Microphone"
+  ],
+  "domain": [
+    "NLP"
+  ],
+  "application": [
+    "Healthcare"
+  ],
+  "use_case": [
+    "Image Segmentation"
+  ],
+  "kit": [
+    "AURIX™ TC3xx Kit"
+  ],
+  "device": [
+    "PSOC™ Edge"
+  ],
+  "thumbnail_image_id": "",
+  "main_image_id": "",
+  "brand_image_id": "",
+  "links": [],
+  "metrics": []
+}
