@@ -1,0 +1,16 @@
+{
+  "title": "Movenet Lightning",
+  "description": "Lightweight human pose estimation",
+  "long_description": "MoveNet Lightning model is a lightweight human pose estimation model optimized for real-time performance on edge devices (RPI), specifically using the Lightning variant for speed. Built on a CenterNet architecture with a MobileNetV2 backbone and an FPN, it predicts the position and confidence scores of 17 human body keypoints.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Pose Estimation"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24419_Illustration_human_robot_dark_show_RGB.png",
+  "main_image_id": "lowres_24419_Illustration_human_robot_dark_show_RGB.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/MovenetLightning", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}
