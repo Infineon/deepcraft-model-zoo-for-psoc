@@ -1,8 +1,8 @@
 # DeepLab-v3 Pre-Trained Model for PSOC™ Edge
 
-Source Model: https://github.com/pytorch/vision/blob/main/LICENSE
+## Licenses
 
-Licenses:
+Source Model: https://github.com/pytorch/vision/blob/main/LICENSE
 
 Sample Application and Deployable Binaries: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
 
