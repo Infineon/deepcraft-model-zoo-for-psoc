@@ -1,0 +1,16 @@
+{
+  "title": "Resnet50 V2 Food Classification",
+  "description": "Resnet50 V2 trained for food recognition",
+  "long_description": "ResNet50V2 is a deep convolutional neural network designed for accurate image classification. It is an improved version of ResNet50 with better training performance and stability due to improved skip connections. When used with the Food-101 dataset, ResNet50V2 takes food images as input and classifies them into 101 different food categories like pizza, burger, or sushi. It’s commonly used in food recognition apps, smart kitchen systems, and calorie tracking tools. Its importance lies in its high accuracy and ability to handle complex food images, making it valuable for diet monitoring, restaurant automation, and nutrition analysis.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Industrial Automation"],
+  "use_case": ["Object Classification"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.png",
+  "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/Resnet50V2FoodClassification", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}
