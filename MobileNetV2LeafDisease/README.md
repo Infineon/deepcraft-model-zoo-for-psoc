@@ -4,8 +4,8 @@ Source Model: https://github.com/tonylins/pytorch-mobilenet-v2/blob/master/LICEN
 
 Licenses:
 
-PSOC™ Edge Model Zoo: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
+Sample Application and Deployable Binaries: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
 
 Model: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/MobileNetV2LeafDisease/licenses/MODEL_LICENSE.txt
 
-Dataset: https://cocodataset.org/#termsofuse
+Dataset: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
