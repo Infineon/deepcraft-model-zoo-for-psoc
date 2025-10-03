@@ -1,0 +1,16 @@
+{
+  "title": "Tiny Yolo v2",
+  "description": "Object detection model designed for fast processing",
+  "long_description": "Tiny YOLOv2 is a real-time object detection model designed for fast processing, implemented in TensorFlow to run on PSOC(tm) Edge. The model has been trained on the COCO Person Dataset. It specifically detects persons in the frame, drawing a bounding box around them.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Person Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
+  "main_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/TinyYolov2", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}

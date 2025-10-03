@@ -1,0 +1,16 @@
+{
+  "title": "EfficientNet Lite",
+  "description": "Lightweight image classification",
+  "long_description": "EfficientNet Lite is a lightweight deep learning model optimized for image classification on edge devices. It builds on EfficientNet’s compound scaling, balancing depth, width, and resolution for efficiency. Trained on ImageNet, it delivers high accuracy with low latency, making it ideal for mobile and embedded AI applications requiring real-time inference.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Object Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.png",
+  "main_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/EfficientnetLite", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}

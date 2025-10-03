@@ -1,0 +1,16 @@
+{
+  "title": "Yolo X",
+  "description": "Real-time object detection",
+  "long_description": "IFX YOLO-X is a real-time object detection model designed for efficient processing and optimized for performance. Implemented in TensorFlow, it is a customized and optimized version of the widely known YOLO-X model. This variant is quantized to int8 format using the TensorFlow Lite converter, enhancing its suitability for deployment on resource-constrained devices. IFX YOLO-X is specifically trained on the COCO dataset, focusing on person detection tasks. IFX YOLO-X is a real-time object detection model engineered for efficient processing and optimized performance on edge devices. This specialized variant of the popular YOLO-X architecture focuses on person detection tasks with enhanced resource efficiency for deployment in constrained computing environments. IFX YOLO-X delivers the powerful object detection capabilities of the YOLO family while being specifically engineered for person detection tasks in edge computing scenarios, making it ideal for applications requiring reliable human presence detection with minimal computational resources.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Wearables", "Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Person Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
+  "main_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
+  "brand_image_id": "embedur.png",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/YoloX", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}
