@@ -1,8 +1,6 @@
 # Arcface Pre-Trained Model for PSOC™ Edge
 
-Source Model:
-
-https://github.com/smaranjitghose/MoveNet/blob/master/LICENSE
+Source Model: https://github.com/smaranjitghose/MoveNet/blob/master/LICENSE
 
 Licenses:
 
