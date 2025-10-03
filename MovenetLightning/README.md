@@ -1,7 +1,5 @@
 # Arcface Pre-Trained Model for PSOC™ Edge
 
-This repository contains <EmbedUR to fill in>
-
 Source Model:
 
 https://github.com/smaranjitghose/MoveNet/blob/master/LICENSE
