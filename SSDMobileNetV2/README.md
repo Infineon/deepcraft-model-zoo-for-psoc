@@ -1,8 +1,8 @@
 # SSD MobileNet-v2  Pre-Trained Model for PSOC™ Edge
 
-Source Model: https://github.com/tensorflow/models/blob/master/LICENSE
+## Licenses
 
-Licenses:
+Source Model: https://github.com/tensorflow/models/blob/master/LICENSE
 
 Sample Application and Deployable Binaries: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
 

@@ -1,8 +1,8 @@
 # Yolov8n Person Detection Pre-Trained Model for PSOC™ Edge
 
-Source Model: https://github.com/ultralytics/ultralytics/blob/main/LICENSE
+## Licenses
 
-Licenses:
+Source Model: https://github.com/ultralytics/ultralytics/blob/main/LICENSE
 
 Sample Application and Deployable Binaries: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
 

@@ -1,8 +1,8 @@
-# Yolo X  Pre-Trained Model for PSOC™ Edge
+# Yolo X Pre-Trained Model for PSOC™ Edge
+
+## Licenses
 
 Source Model: https://github.com/Megvii-BaseDetection/YOLOX/
-
-Licenses:
 
 Sample Application and Deployable Binaries: https://github.com/Infineon/deepcraft-model-zoo-for-psoc/blob/main/LICENSE.txt
 
