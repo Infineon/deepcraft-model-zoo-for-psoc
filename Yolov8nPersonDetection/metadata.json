@@ -11,6 +11,7 @@
   "thumbnail_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.png",
   "main_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.png",
   "brand_image_id": "embedur.png",
-  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/Yolov8nPersonDetection", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolov8nPersonDetection", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
 }
