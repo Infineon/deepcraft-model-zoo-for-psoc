@@ -1,0 +1,17 @@
+{
+  "title": "Yolo LC V1",
+  "description": "Efficient human presence detection",
+  "long_description": "The Yolo LC v1 is a real-time object detection model designed for real-time processing and implemented in TensorFlow. It has been trained on the COCO person dataset and is specifically used for person detection tasks. ST Yolo LC v1 is a real-time object detection model engineered specifically for person detection tasks on edge devices. This specialized implementation delivers efficient human presence detection with optimized performance characteristics for deployment in resource-constrained computing environments. The model has been quantized to the INT8 format using the TensorFlow Lite converter. ST Yolo LC v1 represents a highly specialized object detection solution, concentrating exclusively on human presence detection to deliver superior performance in edge computing environments where both speed and accuracy are essential.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Person Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_16849_camera_outside_of_a_building.png",
+  "main_image_id": "lowres_16849_camera_outside_of_a_building.png",
+  "brand_image_id": "embedur.png",
+  "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/YoloLCV1", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}

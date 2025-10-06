@@ -1,0 +1,17 @@
+{
+  "title": "Hand Landmarks",
+  "description": "Locates key points (landmarks) on a human hand",
+  "long_description": "The hand landmarks estimation model determines 21 key points in the palm and tracks the movement and the position of the different points in the palm. A hand landmarks detection model identifies and locates key points (landmarks) on a human hand, such as fingertips, joints, and wrist position, from an image or video frame. It enables detailed hand pose estimation, useful for gesture recognition, sign language interpretation, augmented reality, and human-computer interaction tasks.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Pose Estimation"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24319_sink_with_faucet_and_sensor.png",
+  "main_image_id": "lowres_24319_sink_with_faucet_and_sensor.png",
+  "brand_image_id": "embedur.png",
+  "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/HandLandmarks", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}

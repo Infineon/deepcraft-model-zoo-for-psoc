@@ -1,0 +1,17 @@
+{
+  "title": "DarkNet53",
+  "description": "Locate and track human faces",
+  "long_description": "The DarkNet53 Face Detection model detects faces in images and returns bounding boxes along with five facial keypoints for face alignment. It is useful for computer vision tasks like facial recognition and security systems. The model performs well with straight faces and can detect faces up to a distance of 1 meter. In group settings, it accurately identifies people in the forefront. Additionally, it supports motion tracking using keypoints. This makes it ideal for applications requiring reliable face detection in controlled environments.",
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "use_case": ["Face Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.png",
+  "main_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.png",
+  "brand_image_id": "embedur.png",
+  "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/DarkNet53", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+}
