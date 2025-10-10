@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/EfficientNetV2-S", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "355.80"},{"label": "Model Weight (MB)", "value": "22.8"}, {"label": "Input Layer", "value": "1x384x384x3"},{"label": "Output Layer", "value": "1x101"},{"label": "Compute (MC)", "value": "308.215"},{"label": "Energy (mJ)", "value": "61.643"}, {"label": "Scratch Pad Size (MB)", "value": "4.1"}]
 }

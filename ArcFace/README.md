@@ -1,6 +1,6 @@
 # ArcFace Pre-Trained Model for PSOC™ Edge
 
-This code example demonstrates how to deploy the Arcface Face Recognition model on the PSoC™ Edge MCU. The model compares the faces using ModusToolbox™. The result is displayed as text, indicating whether the faces belong to the same person or different persons.
+This code example demonstrates how to deploy the ArcFace Face Recognition model on the PSoC™ Edge MCU. The model generates 512 embeddings from 112x112 face images. Multiple static face images are stored on the PSoC Edge and provided as inputs to the model. The processing pipeline then compares the embedding outputs of two faces and determines whether they belong to the same person or different individuals.
 
 ## Licenses
 
@@ -18,8 +18,8 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 
 ## Pre-requisites
 
-1. Setup "PSOC&trade; Edge MCU: AI Hub vision deploy" Application, please refer README.md <TBD: AI Hub Vision Deploy Public Repo URL> for the detailed steps.
-2. This code example is configured to boot from the external OSPI flash, please refer [Switching boot flow to an external OSPI](readme_assets/switching_boot_flow_to_ext_ospi.md) for the detailed steps
+1. Setup "PSOC&trade; Edge MCU: AI Hub vision deploy" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions.
+2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](readme_assets/switching_boot_flow_to_ext_ospi.md) for the detailed steps
 
 ### Deployment steps
 
@@ -40,6 +40,13 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 6. Once the application hex is successfully flashed to PSOC Edge HW, Arcface Face Recognition use-case will start running by default.
 
     <img src="readme_assets/ARCFACE_FACE_RECOGNITION.png" alt="Alt Text" width="640" height="480">
+
+
+### Pre-Built Binaries
+
+There is a pre-built FW binaray available for this use-case under "psoc_edge_fw_binary" directory that can be directly flashed onto PSOC Edge MCU using ModusToolbox™ Programmer tool.
+
+For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Documentation (Section 5.14)**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf). Same steps applicable for flashing to external OSPI as well. 
 
 ---------------------------------------------------------
 

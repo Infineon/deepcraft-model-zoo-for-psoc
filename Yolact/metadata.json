@@ -4,7 +4,7 @@
   "long_description": "The YOLACT Person Segmentation Model enables real-time person segmentation with efficient edge computing. It accurately detects, segments, and counts individuals in a given frame, making it ideal for embedded vision applications. Optimized for low-power, high-performance inference, it ensures fast and precise segmentation. This model enhances human presence detection for security, surveillance, and smart monitoring systems. The model can detect and segment more than one person in a given frame simultaneously while providing the total person count. Segmentation remains stable for up to five people in a single frame. These capabilities make it highly reliable for real-time applications requiring multiple-person detection and tracking.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Person Segmentation"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolact", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "77.68"},{"label": "Model Weight (MB)", "value": "1.62"}, {"label": "Input Layer", "value": "-1x224x224x3"},{"label": "Output Layers", "value": ["1x245x2", "1x245x1", "1x245x2", "1x28x28x32", "1x245x32"]},{"label": "Compute (MC)", "value": "7.5137"},{"label": "Energy (mJ)", "value": "~1.5"}, {"label": "Scratch Pad Size (MB)", "value": "0.273"}]
 }

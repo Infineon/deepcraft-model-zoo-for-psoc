@@ -4,7 +4,7 @@
   "long_description": "Yolov8n_pose is a lightweight and efficient model designed for multi pose estimation tasks. It is part of the YOLO (You Only Look Once) family of models, known for their real-time object detection capabilities. The \"n\" in Yolov8n_pose indicates that it is a nano version, optimized for speed and resource efficiency, making it suitable for deployment on devices with limited computational power, such as mobile devices and embedded systems.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Pose Estimation"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolov8nPose", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "330.04"},{"label": "Model Weight (MB)", "value": "3.3"}, {"label": "Input Layer", "value": "1x320x320x3"},{"label": "Output Layer", "value": "1x56x2100"},{"label": "Compute (MC)", "value": "28.7861"},{"label": "Energy (mJ)", "value": "~5.757"}, {"label": "Scratch Pad Size (MB)", "value": "3.095"}]
 }

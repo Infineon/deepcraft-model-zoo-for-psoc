@@ -4,7 +4,7 @@
   "long_description": "ArcFace Face Recognition is a deep learning-based system that utilizes angular margin loss for accurate face verification. It processes facial images to extract identity-specific embeddings, ensuring robust recognition across varying poses, lighting, and occlusions. The model employs advanced feature extraction and normalization techniques to enhance accuracy in dynamic environments. Unlike traditional methods, it optimizes angular separation in the feature space to improve classification and matching performance. This approach enables high-precision facial recognition for applications in security, biometric authentication, and identity verification.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Facial Recognition"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/ArcFace", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "3858.5"},{"label": "Model Weight (MB)", "value": "32.8"}, {"label": "Input Layer", "value": "1x112x112x3"},{"label": "Output Layer", "value": "1x512"},{"label": "Compute (MC)", "value": "104.608"},{"label": "Energy (mJ)", "value": "~20.922"}, {"label": "Scratch Pad Size (MB)", "value": "3.308"}]
 }

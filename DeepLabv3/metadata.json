@@ -4,7 +4,7 @@
   "long_description": "DeepLabv3 MobileNetv2 ASPPv2 is a lightweight semantic segmentation model that combines DeepLabv3's powerful Atrous Spatial Pyramid Pooling (ASPPv2) with the efficient MobileNetv2 backbone. It excels at capturing multi-scale contextual information while remaining highly optimized for mobile and edge devices. This design achieves a strong balance between accuracy and computational efficiency, making it ideal for real-time person segmentation tasks.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Image Segmentation"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/DeepLabv3", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "17.66"},{"label": "Model Weight (MB)", "value": "0.24"}, {"label": "Input Layer", "value": "1x256x256x3"},{"label": "Output Layer", "value": "-1x256x256x3"},{"label": "Compute (MC)", "value": "5.5437"},{"label": "Energy (mJ)", "value": "1.1087"}, {"label": "Scratch Pad Size (MB)", "value": "0.8"}]
 }
