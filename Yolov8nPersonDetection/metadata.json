@@ -4,7 +4,7 @@
   "long_description": "Yolov8n is a lightweight and efficient object detection model designed for instance segmentation tasks. It is part of the YOLO (You Only Look Once) family of models, known for their real-time object detection capabilities. The \"n\" in Yolov8n_detection indicates that it is a nano version, optimized for speed and resource efficiency, making it suitable for deployment on devices with limited computational power, such as mobile devices and embedded systems. Yolov8n is implemented in Pytorch by Ultralytics and is quantized in int8 format using tensorflow lite converter. YOLOv8n-detect is an ultra-efficient object detection model delivering pixel-perfect object detection in resource-constrained environments. This lightweight powerhouse combines the renowned YOLO architecture with advanced efficiency optimizations for edge AI applications. Yolov8n_Person detect represents the cutting edge of efficient computer vision, enabling sophisticated pixel-level object detection on devices previously limited to basic detection tasks. Experience YOLO's renowned speed and accuracy in an ultra-compact format engineered specifically for edge deployment scenarios. Download today!",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolov8nPersonDetection", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "907.20"},{"label": "Model Weight (MB)", "value": "2.97"}, {"label": "Input Layer", "value": "1x416x416x3"},{"label": "Output Layer", "value": "1x5x3549"},{"label": "Compute (MC)", "value": "TBD"},{"label": "Energy (mJ)", "value": "TBD"}, {"label": "Scratch Pad Size (MB)", "value": "4.918"}]
 }

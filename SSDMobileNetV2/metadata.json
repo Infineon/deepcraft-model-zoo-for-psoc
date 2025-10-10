@@ -4,7 +4,7 @@
   "long_description": "The MobileNet-SSD model is a Single-Shot Multibox Detection (SSD) network designed for object detection tasks. It utilizes MobileNetV2 as its backbone, which is a versatile architecture suitable for various applications. Depending on the specific use case, the model can adapt by using different input layer sizes and width factors. This flexibility helps reduce the number of multiply-add operations, thereby lowering inference costs, especially on mobile devices. MobileNet-SSD is a Single-Shot Multibox Detection network engineered for efficient object detection on edge devices. This versatile model combines the lightweight MobileNetV2 backbone architecture with SSD detection methodology to deliver optimized performance in resource-constrained environments. The model has been quantized to int8 using the TensorFlow Lite converter to optimize performance further. MobileNet-SSD provides exceptional versatility through its configurable design parameters, allowing developers to fine-tune the model's size and computational requirements according to specific deployment scenarios while maintaining effective object detection capabilities on edge computing platforms.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/SSDMobileNetV2", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "42.56"},{"label": "Model Weight (MB)", "value": "1.9"}, {"label": "Input Layer", "value": "1x192x192x3"},{"label": "Output Layer", "value": "1x2268x6"},{"label": "Compute (MC)", "value": "5.6073"},{"label": "Energy (mJ)", "value": "~1.1215"}, {"label": "Scratch Pad Size (MB)", "value": "0.27"}]
 }

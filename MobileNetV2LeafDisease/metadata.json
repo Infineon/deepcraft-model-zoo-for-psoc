@@ -4,7 +4,7 @@
   "long_description": "MobileNetV2 is a lightweight and efficient deep learning model developed by Google, ideal for image classification on mobile and edge devices. When applied to the PlantVillage dataset, it takes input images of size 224x224x3 (RGB format of plant leaves) and outputs the predicted classes for various plant leaf diseases. MobileNetV2 uses advanced techniques like depthwise separable convolutions and inverted residuals to reduce model size and computational cost. It is well-suited for real-time plant leaf disease detection in mobile farming apps, smart agriculture devices, and low-power field equipment where fast and efficient processing is critical.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MobileNetV2LeafDisease", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "288.68"},{"label": "Model Weight (MB)", "value": "2.62"}, {"label": "Input Layer", "value": "-1x224x224x3"},{"label": "Output Layer", "value": "-1x39"},{"label": "Compute (MC)", "value": "9.99"},{"label": "Energy (mJ)", "value": "~1.998"}, {"label": "Scratch Pad Size (MB)", "value": "0.83"}]
 }

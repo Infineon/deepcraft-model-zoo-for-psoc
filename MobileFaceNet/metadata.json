@@ -4,7 +4,7 @@
   "long_description": "MobileFaceNet is a lightweight, efficient deep learning model specifically engineered for facial recognition applications on mobile and embedded devices. Built upon a modified MobileNetV2 architecture, this model incorporates depthwise separable convolutions to significantly reduce computational requirements while maintaining accuracy.Trained on the comprehensive MS-Celeb-1M dataset, MobileFaceNet delivers robust feature extraction capabilities for face verification and recognition tasks. The model employs an optimized backbone with a streamlined parameter count to enhance processing speed and operational efficiency.MobileFaceNet performs with high accuracy on frontal-facing subjects and individuals without eyewear that obscures key facial features. The system may experience reduced recognition accuracy when facial elements, particularly the eyes, are significantly concealed.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Facial Recognition"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MobileFaceNet", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "1252.2"},{"label": "Model Weight (MB)", "value": "1.6"}, {"label": "Input Layer", "value": "1x112x112x3"},{"label": "Output Layers", "value": "1x128"},{"label": "Compute (MC)", "value": "20.791"},{"label": "Energy (mJ)", "value": "4.1582"}, {"label": "Scratch Pad Size (MB)", "value": "1.24"}]
 }

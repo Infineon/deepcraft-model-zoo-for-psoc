@@ -4,7 +4,7 @@
   "long_description": "MoveNet Lightning model is a lightweight human pose estimation model optimized for real-time performance on edge devices (RPI), specifically using the Lightning variant for speed. Built on a CenterNet architecture with a MobileNetV2 backbone and an FPN, it predicts the position and confidence scores of 17 human body keypoints.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Smart Manufactoring", "Industrial IoT"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Pose Estimation"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MovenetLightning", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": 1},{"label": "Energy (mJ)", "value": 1},{"label": "Compute (MCPS)", "value": 1}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "330.04"},{"label": "Model Weight (MB)", "value": "2.62"}, {"label": "Input Layer", "value": "-1x256x256x3"},{"label": "Output Layer", "value": "-1x64x64x17"},{"label": "Compute (MC)", "value": "15.1477"},{"label": "Energy (mJ)", "value": "~3.029"}, {"label": "Scratch Pad Size (MB)", "value": "1.089"}]
 }
