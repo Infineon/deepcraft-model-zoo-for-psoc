@@ -13,5 +13,5 @@
   "brand_image_id": "embedur.png",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolov8nPersonDetection", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
-  "metrics": [{"label": "Inference Time (ms)", "value": "907.20"},{"label": "Model Weight (MB)", "value": "2.97"}, {"label": "Input Layer", "value": "1x416x416x3"},{"label": "Output Layer", "value": "1x5x3549"},{"label": "Compute (MC)", "value": "TBD"},{"label": "Energy (mJ)", "value": "TBD"}, {"label": "Scratch Pad Size (MB)", "value": "4.918"}]
+  "metrics": [{"label": "Inference Time (ms)", "value": "907.20"},{"label": "Model Weight (MB)", "value": "2.97"}, {"label": "Input Layer", "value": "1x416x416x3"},{"label": "Output Layer", "value": "1x5x3549"},{"label": "Compute (MC)", "value": "774.847"},{"label": "Energy (mJ)", "value": "154.969"}, {"label": "Scratch Pad Size (MB)", "value": "4.918"}]
 }
