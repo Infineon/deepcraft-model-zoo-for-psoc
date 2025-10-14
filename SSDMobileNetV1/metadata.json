@@ -8,9 +8,9 @@
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.png",
-  "main_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.webp",
+  "main_image_id": "lowres_24841_Light_electric_Vehicles_in_the_City.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/SSDMobileNetV1", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "327.70"},{"label": "Model Weight (MB)", "value": "1.86"}, {"label": "Input Layer", "value": "1x192x192x3"},{"label": "Output Layer", "value": "1x2268x6"},{"label": "Compute (MC)", "value": "5.6073"},{"label": "Energy (mJ)", "value": "~1.1215"}, {"label": "Scratch Pad Size (MB)", "value": "0.27"}]

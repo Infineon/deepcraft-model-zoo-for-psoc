@@ -8,9 +8,9 @@
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.png",
-  "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+  "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Resnet50V2FoodClassification", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "401"},{"label": "Model Weight (MB)", "value": "23.3"}, {"label": "Input Layer", "value": "-1x224x224x3"},{"label": "Output Layer", "value": "-1x101"},{"label": "Compute (MC)", "value": "120.8138"},{"label": "Energy (mJ)", "value": "~24.1627"}, {"label": "Scratch Pad Size (MB)", "value": "1.86"}]

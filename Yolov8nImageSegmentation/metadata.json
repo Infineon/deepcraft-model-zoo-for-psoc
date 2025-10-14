@@ -8,9 +8,9 @@
   "use_case": ["Image Segmentation"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_21784_security_camera.png",
-  "main_image_id": "lowres_21784_security_camera.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_21784_security_camera.webp",
+  "main_image_id": "lowres_21784_security_camera.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/Yolov8nImageSegmentation", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "142.55"},{"label": "Model Weight (MB)", "value": "3.35"}, {"label": "Input Layer", "value": "1x256x256x3"},{"label": "Output Layers", "value": ["1x116x1344", "1x64x64x32"]},{"label": "Compute (MC)", "value": "22.67"},{"label": "Energy (mJ)", "value": "~4.53488"}, {"label": "Scratch Pad Size (MB)", "value": "2.09"}]
