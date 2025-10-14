@@ -1,5 +1,5 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
 #ifndef MOVENET_LIGHTNING_POSE_ESTIMATION_H

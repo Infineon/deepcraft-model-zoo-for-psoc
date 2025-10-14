@@ -1,5 +1,5 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
 #ifndef DEEPLABV3_MOBILENETV3_SEMANTIC_SEMANTIC_SEGMENTATION_H

@@ -1,5 +1,5 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
 #ifndef EFFICIENTNET_LITE_FOOD_CLASSIFICATION_H
