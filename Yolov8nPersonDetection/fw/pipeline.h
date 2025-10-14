@@ -1,5 +1,5 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
 #ifndef YOLOV8N_PERSON_DETECTION_H
@@ -136,7 +136,6 @@ void ml_pipeline_inference(void);
 *
 *******************************************************************************/
 void ml_pipeline_post_process(void);
-
 
 /*******************************************************************************
 * Function Name: IMAGE_DrawRect

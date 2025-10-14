@@ -1,60 +1,46 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
-#ifndef MOBILEFACENET_FACE_RECOGNITION_H
-#define MOBILEFACENET_FACE_RECOGNITION_H
+#ifndef MOBILENET_PLANT_LEAF_DISEASE_CLASSIFICATION_H
+#define MOBILENET_PLANT_LEAF_DISEASE_CLASSIFICATION_H
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#define STATIC_IMAGE
-
 #include <stdint.h>
-#include "usb_camera_task.h"
 
 /*******************************************************************************
 * MACROS
 *******************************************************************************/
-#define INPUT_WIDTH              112
-#define INPUT_HEIGHT             112
+#define PSRAM_MODEL_INPUT       0x64500000
+#define PSRAM_ADDRESS_OUTPUT    0x64C00000
 
-#define NUM_STATIC_IMAGES        (3u)
-
-#define OUTPUT_SCALE             0.0078125f
-
-#define NPU_PRIORITY             3
+#define INPUT_WIDTH             224
+#define INPUT_HEIGHT            224
+#define NPU_PRIORITY            3
 
 #ifndef DISPLAY_H
-#define DISPLAY_H                480U
+#define DISPLAY_H               480U
 #endif
 #ifndef DISPLAY_W
-#define DISPLAY_W                832U
+#define DISPLAY_W               832U
 #endif
 
-#define EMBEDDING_SIZE           128
+#define NUM_CLASSES             39
+#define FALLBACK_STRING_SIZE    32
+#define TEXT_SIZE               128
+#define DISP_OFFSET             80
+#define X_COORDINATE            10
 
-#define DISP_OFFSET              110
-#define X_COORDINATE             10
-#define MAX_NAME_LENGTH          100
-
-#define SIMILARITY_THRESHOLD     0.96f
-#define CHANNEL                  3
-
-#define PIPELINE_OK              1
-#define PIPELINE_ERROR          -1
+#define PIPELINE_OK             1
+#define PIPELINE_ERROR         -1
 
 #ifndef max
     #define max(a, b) ((a) > (b) ? (a) : (b))
     #define min(a, b) ((a) < (b) ? (a) : (b))
 #endif
-
-extern uint8_t static_display_image[NUM_STATIC_IMAGES][CAMERA_BUFFER_SIZE];
-
-/*******************************************************************************
-*Global Declaration
-*******************************************************************************/
 
 /*******************************************************************************
 * Function Name: getData
@@ -130,6 +116,35 @@ void ml_pipeline_inference(void);
 *******************************************************************************/
 void ml_pipeline_post_process(void);
 
+/*******************************************************************************
+* Function Name: IMAGE_DrawRect
+****************************************************************************//**
+*
+* Draws a rectangle on an image buffer with the specified color and coordinates.
+* The rectangle is defined by its top-left (x0, y0) and bottom-right (x1, y1)
+* corners. The color is specified using RGB components. The function ensures that
+* drawing stays within the bounds of the target display or image buffer based on
+* the provided width (lcd_w) and height (lcd_h).
+*
+* \param pdst     Pointer to the destination image buffer where the rectangle will be drawn.
+* \param x0       X-coordinate of the top-left corner of the rectangle.
+* \param y0       Y-coordinate of the top-left corner of the rectangle.
+* \param x1       X-coordinate of the bottom-right corner of the rectangle.
+* \param y1       Y-coordinate of the bottom-right corner of the rectangle.
+* \param r        Red component of the rectangle color (0–255 or 0–31 depending on format).
+* \param g        Green component of the rectangle color (0–255 or 0–63 depending on format).
+* \param b        Blue component of the rectangle color (0–255 or 0–31 depending on format).
+* \param lcd_w    Width of the display or image buffer in pixels.
+* \param lcd_h    Height of the display or image buffer in pixels.
+*
+* \return None
+*
+*******************************************************************************/
+void IMAGE_DrawRect(uint16_t *pdst, 
+                    int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+                    uint16_t r, uint16_t g, uint16_t b, 
+                    uint16_t lcd_w, uint16_t lcd_h);
+                    
 #if defined(__cplusplus)
 }
 #endif /* __cplusplus */

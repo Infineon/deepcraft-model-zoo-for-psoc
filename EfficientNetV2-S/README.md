@@ -18,12 +18,12 @@ Dataset: https://image-net.org/download
 
 ## Pre-requisites
 
-1. Setup "PSOC&trade; Edge MCU: AI Hub vision deploy" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions.
+1. Setup "PSOC&trade; Edge ML AI Hub Deploy Vision" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions.
 2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](readme_assets/switching_boot_flow_to_ext_ospi.md) for the detailed steps
 
 ### Deployment steps
 
-1. Once the "PSOC&trade; Edge MCU: AI Hub vision deploy" application is imported succesfully, follow the below steps to Deploy EfficientNet V2S Food Classification  Vision model
+1. Once the "PSOC&trade; Edge ML AI Hub Deploy Vision" application is imported successfully, follow the below steps to Deploy EfficientNet V2S Food Classification  Vision model
 
 2. Go to [EfficientNet V2S Food Classification  FW Artifacts](https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/EfficientNetV2-S/fw) and copy all the .h and .a files to <application_workspace>/ml_pipeline_eur_libs directory
 
@@ -44,7 +44,7 @@ Dataset: https://image-net.org/download
 
 ### Pre-Built Binaries
 
-There is a pre-built FW binaray available for this use-case under "psoc_edge_fw_binary" directory that can be directly flashed onto PSOC Edge MCU using ModusToolbox™ Programmer tool.
+There is a pre-built FW binary available for this use-case under "psoc_edge_fw_binary" directory that can be directly flashed onto PSOC Edge MCU using ModusToolbox™ Programmer tool.
 
 For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Documentation (Section 5.14)**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf). Same steps applicable for flashing to external OSPI as well. 
 

@@ -1,6 +1,6 @@
 # Mobile FaceNet Pre-Trained Model for PSOC™ Edge
 
-This code example demonstrates how to deploy the ArcFace Face Recognition model on the PSoC™ Edge MCU. The model generates 128 embeddings from 112x112 face images. Multiple static face images are stored on the PSoC Edge and provided as inputs to the model. The processing pipeline then compares the embedding outputs of two faces and determines whether they belong to the same person or different individuals.
+This code example demonstrates how to deploy the MobileFaceNet Face Recognition model on the PSoC™ Edge MCU. The model generates 128 embeddings from 112x112 face images. Multiple static face images are stored on the PSoC Edge and provided as inputs to the model. The processing pipeline then compares the embedding outputs of two faces and determines whether they belong to the same person or different individuals.
 
 ## Licenses
 
@@ -18,12 +18,12 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 
 ## Pre-requisites
 
-1. Setup "PSOC&trade; Edge MCU: AI Hub vision deploy" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions.
+1. Setup "PSOC&trade; Edge ML AI Hub Deploy Vision" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions.
 2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](readme_assets/switching_boot_flow_to_ext_ospi.md) for the detailed steps
 
 ### Deployment steps
 
-1. Once the "PSOC&trade; Edge MCU: AI Hub vision deploy" application is imported succesfully, follow the below steps to Deploy MobileFaceNet Face Recognition Vision model
+1. Once the "PSOC&trade; Edge ML AI Hub Deploy Vision" application is imported successfully, follow the below steps to Deploy MobileFaceNet Face Recognition Vision model
 
 2. Go to [MobileFaceNet Face Recognition FW Artifacts](https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MobileFaceNet/fw) and copy all the .h and .a files to <application_workspace>/ml_pipeline_eur_libs directory
 
@@ -44,7 +44,7 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 
 ### Pre-Built Binaries
 
-There is a pre-built FW binaray available for this use-case under "psoc_edge_fw_binary" directory that can be directly flashed onto PSOC Edge MCU using ModusToolbox™ Programmer tool.
+There is a pre-built FW binary available for this use-case under "psoc_edge_fw_binary" directory that can be directly flashed onto PSOC Edge MCU using ModusToolbox™ Programmer tool.
 
 For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Documentation (Section 5.14)**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf). Same steps applicable for flashing to external OSPI as well. 
 
