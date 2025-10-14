@@ -8,9 +8,9 @@
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_13872_CSR_Planting_a_tree.png",
-  "main_image_id": "lowres_13872_CSR_Planting_a_tree.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_13872_CSR_Planting_a_tree.webp",
+  "main_image_id": "lowres_13872_CSR_Planting_a_tree.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MobileNetV2LeafDisease", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "288.68"},{"label": "Model Weight (MB)", "value": "2.62"}, {"label": "Input Layer", "value": "-1x224x224x3"},{"label": "Output Layer", "value": "-1x39"},{"label": "Compute (MC)", "value": "9.99"},{"label": "Energy (mJ)", "value": "~1.998"}, {"label": "Scratch Pad Size (MB)", "value": "0.83"}]

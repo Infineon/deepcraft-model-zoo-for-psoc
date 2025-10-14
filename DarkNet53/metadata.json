@@ -8,9 +8,9 @@
   "use_case": ["Face Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.png",
-  "main_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.webp",
+  "main_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/DarkNet53", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "91.08"},{"label": "Model Weight (MB)", "value": "3.04"}, {"label": "Input Layer", "value": "1x224x224x3"},{"label": "Output Layer", "value": "1x20x1029"},{"label": "Compute (MC)", "value": "15.247"},{"label": "Energy (mJ)", "value": "~3.05"}, {"label": "Scratch Pad Size (MB) ", "value": "1.52"}]

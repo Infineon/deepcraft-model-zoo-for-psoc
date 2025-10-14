@@ -8,9 +8,9 @@
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
-  "thumbnail_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
-  "main_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise ID.png",
-  "brand_image_id": "embedur.png",
+  "thumbnail_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise_ID.webp",
+  "main_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise_ID.webp",
+  "brand_image_id": "embedur.webp",
   "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/TinyYolov2", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
   "metrics": [{"label": "Inference Time (ms)", "value": "41.32"},{"label": "Model Weight (MB)", "value": "1.86"}, {"label": "Input Layer", "value": "1x192x192x3"},{"label": "Output Layer", "value": "1x2268x6"},{"label": "Compute (MC)", "value": "5.6051"},{"label": "Energy (mJ)", "value": "1.21"}, {"label": "Scratch Pad Size (MB)", "value": "0.224"}]
