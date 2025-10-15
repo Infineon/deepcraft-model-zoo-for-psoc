@@ -1,5 +1,5 @@
 /****************************************************************************/
-/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved     */
+/* Copyright (c) 2025 embedUR systems, Inc.    All rights reserved          */
 /****************************************************************************/
 
 #ifndef MOBILENET_PLANT_LEAF_DISEASE_CLASSIFICATION_H
