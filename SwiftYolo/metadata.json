@@ -1,0 +1,17 @@
+{
+  "title": "Swift YOLO Person Detection",
+  "description": "Efficient human presence detection",
+  "long_description": "The Swift YOLO Person Detection is a lightweight, real-time object detection model optimized for edge devices. Trained on the person detection dataset and implemented in TensorFlow, it provides fast and accurate human presence detection in resource-constrained environments.  It is Ideal for embedded and IoT applications where speed and accuracy are critical."
+  "sensors": ["Camera"],
+  "domain": ["Vision"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
+  "use_case": ["Person Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_16849_camera_outside_of_a_building.webp",
+  "main_image_id": "lowres_16849_camera_outside_of_a_building.webp",
+  "brand_image_id": "embedur.webp",
+  "brand_url": "https://www.embedur.ai/?utm_source=infineon_site&utm_medium=referral&utm_campaign=promotion",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/SwiftYolo", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge Eval Kit"}],
+  "metrics": [{"label": "Inference Time (ms)", "value": "101.44"},{"label": "Model Weight (MB)", "value": "1.9"}, {"label": "Input Layer", "value": "1x192x192x3"},{"label": "Output Layer", "value": "1x2268x6"},{"label": "Compute (MC)", "value": "5.6052"},{"label": "Energy (mJ)", "value": "1.121"}, {"label": "Scratch Pad Size (MB)", "value": "0.228"}]
+}
