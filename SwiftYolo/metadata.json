@@ -1,7 +1,7 @@
 {
   "title": "Swift YOLO Person Detection",
   "description": "Efficient human presence detection",
-  "long_description": "The Swift YOLO Person Detection is a lightweight, real-time object detection model optimized for edge devices. Trained on the person detection dataset and implemented in TensorFlow, it provides fast and accurate human presence detection in resource-constrained environments.  It is Ideal for embedded and IoT applications where speed and accuracy are critical."
+  "long_description": "The Swift YOLO Person Detection is a lightweight, real-time object detection model optimized for edge devices. Trained on the person detection dataset and implemented in TensorFlow, it provides fast and accurate human presence detection in resource-constrained environments.  It is Ideal for embedded and IoT applications where speed and accuracy are critical.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
   "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
