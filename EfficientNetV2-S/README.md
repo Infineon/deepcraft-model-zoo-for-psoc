@@ -19,7 +19,7 @@ Dataset: https://image-net.org/download
 ## Pre-requisites
 
 1. Setup "PSOC&trade; Edge ML AI Hub Deploy Vision" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions
-2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](../readme_assets/switching_boot_flow_to_ext_ospi.md) for the detailed steps
+2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision?tab=readme-ov-file#switching-the-boot-flow-to-an-external-ospi-flash) for the detailed steps
 
 ### Deployment steps
 
