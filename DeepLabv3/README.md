@@ -29,7 +29,7 @@ Dataset: https://creativecommons.org/licenses/by/4.0/legalcode
 3. Open proj_cm55/Makefile and update the following variables for DeepLabV3 MobilenetV3 Semantic Segmentation model
 - NN_TYPE=int8x8
 - NN_MODEL_NAME=DEEPLAB_V3_MOBILENETV3_SEGMENTATION
-- LDLIBS+=../ml_pipeline_eur_libs/DEEPLAB_V3_MOBILENETV3_SEGMENTATION.a
+- LDLIBS+=../ml_pipeline_eur_libs/DEEPLAB_V3_MOBILENETV3_SEGMENTATION_pipeline.a
 - DEFINES+=ML_IMAGIMOB_CM55 MODEL_NAME=$(NN_MODEL_NAME) CY_ML_MODEL_MEM=.constdata
 
 4. Build the full project

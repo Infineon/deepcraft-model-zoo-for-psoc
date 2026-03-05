@@ -20,6 +20,7 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 
 1. Setup "PSOC&trade; Edge ML AI Hub Deploy Vision" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions
 2. This code example is configured to boot from the external OSPI flash, refer [Switching boot flow to an external OSPI](https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision?tab=readme-ov-file#switching-the-boot-flow-to-an-external-ospi-flash) for the detailed steps
+   - Note: If you are flashing the pre-built binary, you can skip the steps relating to coping the design files and building the application, after the device provisioning step.
 
 ### Deployment steps
 
