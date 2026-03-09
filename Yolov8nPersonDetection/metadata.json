@@ -8,6 +8,8 @@
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
+  "type": "Model Deployment",
+	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.webp",
   "main_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.webp",
   "brand_image_id": "embedur.webp",

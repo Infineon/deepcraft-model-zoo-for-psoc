@@ -8,6 +8,8 @@
   "use_case": ["Person Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
+  "type": "Model Deployment",
+	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise_ID.webp",
   "main_image_id": "lowres_22649_Woman_in_building_with_keycard_access_physical_access_CSS_Enterprise_ID.webp",
   "brand_image_id": "embedur.webp",

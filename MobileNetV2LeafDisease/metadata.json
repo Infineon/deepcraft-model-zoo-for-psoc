@@ -8,6 +8,8 @@
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
+  "type": "Model Deployment",
+	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres_13872_CSR_Planting_a_tree.webp",
   "main_image_id": "lowres_13872_CSR_Planting_a_tree.webp",
   "brand_image_id": "embedur.webp",

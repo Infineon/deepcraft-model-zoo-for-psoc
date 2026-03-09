@@ -8,6 +8,8 @@
   "use_case": ["Face Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
+  "type": "Model Deployment",
+	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.webp",
   "main_image_id": "lowres_25003_Facial_Recogntn_Icon_Ocean.webp",
   "brand_image_id": "embedur.webp",
