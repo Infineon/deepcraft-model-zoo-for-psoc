@@ -14,7 +14,8 @@
   "main_image_id": "lowres-GettyImages-Smarthomepanel.webp",
   "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "brand_url": "https://www.wgtech.ai/",
-  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/RadarEntranceCounter", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 6 AI Eval Kit"}]
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/RadarEntranceCounter", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 6 AI Eval Kit"},
+  {"label": "YouTube", "url": "https://www.youtube.com/shorts/Cl_InHIRspY", "heading": "Watch Demo", "sub-heading": "Watch the entrance counter in action on the PSOC\u2122 6 AI Eval Kit"}]
 }
   
 
