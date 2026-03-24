@@ -31,7 +31,7 @@ See: [LICENSE](licenses/LICENSE) for full details.
 All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="500" height="1000">
+<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="300" height="1000">
 
 ## Pre-requisites
 
