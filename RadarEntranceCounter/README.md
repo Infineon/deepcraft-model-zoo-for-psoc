@@ -62,6 +62,31 @@ Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 <img src="readme_assets/Dashboard.png" alt="Radar Entrance Counter Running" width="640" height="480">
 
+## Library Integration
+
+For developers who want to integrate the radar processing functionality into their own ModusToolbox™ application, the radar algorithms are provided as a static library.
+
+### Library Files
+
+The following files are provided in the [fw](fw/) artifacts package:
+
+- `radar_processing.a` – Precompiled radar processing library
+- `radar_processing.h` – Radar signal processing interface
+
+### Integration Steps
+
+1. Copy the library and header files into your ModusToolbox project.
+
+2. Update the project **Makefile** to include the radar_processing library.
+Add the following line:
+LDLIBS += ../libradar.a
+
+3.Build the full project
+
+4.Program the application to PSOC 6
+
+5.After integration, the application will use the radar processing library to perform real-time entrance counting. 
+
 ## Kit Placement
 
 For accurate operation of the Radar Entrance Counter Application, the radar kit must be properly positioned at the doorway.
