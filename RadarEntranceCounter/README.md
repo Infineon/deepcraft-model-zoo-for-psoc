@@ -79,7 +79,7 @@ The following files are provided in the [fw](fw/) artifacts package:
 
 2. Update the project **Makefile** to include the radar_processing library.
 Add the following line:
-LDLIBS += ../libradar.a
+LDLIBS += ../radar_processing.a
 
 3.Build the full project
 
