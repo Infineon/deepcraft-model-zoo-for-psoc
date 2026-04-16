@@ -59,9 +59,41 @@ typedef struct {
 /* Initialise FFT + windows. Call once before first radar_processing_run(). */
 int  radar_processing_init(radar_processing_ctx_t *ctx);
 
-/* Run full 6-stage DSP pipeline on one float32 frame. */
+/**
+ * @brief Initialize radar processing module
+ *
+ * Initializes FFT instances, windows, and internal buffers.
+ *
+ * @param ctx Pointer to radar processing context
+ *
+ * @return int
+ *         0  → Success
+ *        -1  → Failure (FFT initialization error)
+ *
+ * @note Must be called once before calling radar_processing_run()
+ */
 void radar_processing_run(radar_processing_ctx_t    *ctx,
                           float32_t                 *frame_data,
                           radar_processing_output_t *output);
+
+/**
+ * @brief Process one radar frame
+ *
+ * Executes full DSP pipeline:
+ *  1. Range FFT
+ *  2. Doppler FFT
+ *  3. Power Spectral Density (PSD)
+ *  4. Peak detection
+ *  5. Distance & velocity estimation
+ *  6. IN/OUT event detection
+ *
+ * @param ctx        Pointer to initialized context
+ * @param frame_data Input radar frame (float32 array)
+ * @param output     Output result structure
+ *
+ * @note
+ * - frame_data must match configuration in config.h
+ * - radar_processing_init() must be called before this
+ */
 
 #endif /* RADAR_PROCESSING_H */

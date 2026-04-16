@@ -79,7 +79,7 @@ The following files are provided in the [fw](fw/) artifacts package:
 
 2. Update the project **Makefile** to include the radar_processing library.
 Add the following line:
-LDLIBS += ../libradar.a
+LDLIBS += <path_to_library>/radar_processing.a
 
 3.Build the full project
 
@@ -134,6 +134,16 @@ For optimal detection and accurate IN/OUT classification, people should walk thr
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 - `Entrance_counter.hex` - Firmware binary that can be directly flashed onto PSoC™ 6 MCU using ModusToolbox™ Programmer tool
 - `Dashboard.exe` - Windows application for real-time counter display and visualization
+
+### Reference Radar Example
+
+Users can refer to Infineon’s radar SDK examples for correct sensor configuration and integration:
+
+- Radar Presence Detection Example (ModusToolbox™)
+- XENSIV™ BGT60TR13C Radar SDK examples
+
+These examples demonstrate proper radar initialization and configuration required for correct operation of this library.
+
  
 For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Documentation**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf). Connect via serial port (e.g., COM3) post-flash for output visualization.
  
