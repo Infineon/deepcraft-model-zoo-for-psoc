@@ -72,6 +72,7 @@ The following files are provided in the [fw](fw/) artifacts package:
 
 - `radar_processing.a` – Precompiled radar processing library
 - `radar_processing.h` – Radar signal processing interface
+- `config.h` – Radar configuration file (must be used for correct sensor parameters and processing behavior)
 
 ### Integration Steps
 
