@@ -139,8 +139,8 @@ Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/)
 
 Users can refer to Infineon’s radar SDK examples for correct sensor configuration and integration:
 
-- Radar Presence Detection Example (ModusToolbox™)
-- XENSIV™ BGT60TR13C Radar SDK examples
+- [**Radar Presence Detection Example**](https://github.com/Infineon/mtb-example-psoc6-radar-presence) (ModusToolbox™)
+- [**XENSIV™ BGT60TR13C Radar code example**](https://github.com/Infineon/arduino-xensiv-radar-sensor-bgt60tr13)
 
 These examples demonstrate proper radar initialization and configuration required for correct operation of this library.
 
