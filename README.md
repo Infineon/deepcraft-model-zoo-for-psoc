@@ -10,6 +10,8 @@ Within the different projects you will find:
 ## Usage
 These projects can be integrated into your application using the library or model files or directly deployed on the device. See the individual readme files to learn more about each project and see the metadata.json files to learn more about the kinds of sensors, target devices & applications.
 
+> **Note**: Models in this repository use different external flash memory configurations. Smaller models are configured to boot from the external QSPI flash (default boot configuration), while larger models use the external OSPI flash. See each model's README for the specific flash configuration required.
+
 ## Contribution
 All users are welcome to submit new models/projects, subject to the DEEPCRAFT™ - Model Zoo for PSOC™ review process. See contributing guide for more details.
 

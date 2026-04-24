@@ -19,6 +19,7 @@ Dataset: https://creativecommons.org/publicdomain/zero/1.0/
 ## Pre-requisites
 
 * Setup "PSOC&trade; Edge ML AI Hub Deploy Vision" Application, refer to the README at https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision for detailed setup and usage instructions
+* This code example is configured to boot from the external QSPI flash (default boot configuration). If your device was previously provisioned for OSPI, refer to the [Switching boot flow to an external OSPI](https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision?tab=readme-ov-file#switching-the-boot-flow-to-an-external-ospi-flash) section for steps to re-provision for QSPI.
 
 ### Deployment steps
 
