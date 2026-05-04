@@ -1,0 +1,18 @@
+{
+  "title": "Voltage and Current Anomaly Detection",
+  "description": "Detect and analyze anomalies in voltage and current signals for predictive maintenance and fault prevention.",
+  "long_description": "This project enables the deployment of machine learning models to identify anomalies in voltage and current readings from electrical systems. It helps in detecting potential faults, overloads, or abnormal behaviors in industrial equipment, power systems, and embedded devices. The project is designed for real-time monitoring and predictive maintenance applications using voltage and current sensors.",
+  "sensors": ["Voltage", "Current"],
+  "domain": ["Electronic Sensing"],
+  "application": ["Industrial IoT", "Smart Manufacturing", "Energy Management", "Embedded Systems", "Predictive Maintenance"],
+  "use_case": ["Anomaly Detection", "Fault Detection"],
+  "kit": ["PSOC\u2122 6 AI Kit", "PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge"],
+  "type": "Model Deployment",
+  "workflow": ["ML Deployment"],
+  "thumbnail_image_id": "lowres-PSS_Switch-cabinet_ww_01.webp",
+  "main_image_id": "lowres-PSS_Switch-cabinet_ww_01.webp",
+  "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "brand_url": "https://www.wgtech.ai/",
+  "links": [ {"label": "Learn More", "url": "https://www.wgtech.ai/solutions", "heading": "Project Details", "sub-heading": "Learn more about the project and take the next step"} ]
+}
