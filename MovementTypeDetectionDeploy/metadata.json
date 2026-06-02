@@ -1,0 +1,18 @@
+{
+  "title": "Movement Type Detection (Deploy)",
+  "description": "Deploy on PSOC\u2122 Edge AI Kit an IMU-based movement pattern classifier.",
+  "long_description": "This project shows you how to deploy on PSOC\u2122 Edge AI Kit a model capable of differentiating between 3 different movement types, circle, shaking and stationary, based on IMU (6-axis accelerometer and gyroscope) data. The model is suitable for gestures-based applications.",
+  "sensors": ["IMU"],
+  "domain": ["Vibration", "Sensing"],
+  "application": ["Wearables", "Safety Monitoring", "Healthcare", "Games"],
+  "use_case": ["Hand Movement Type Detection"],
+  "kit": ["PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "type": ["Model Deployment"],
+  "workflow": ["ML Deployment"],
+  "thumbnail_image_id": "motion.png",
+  "main_image_id": "motion.png",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/MovementTypeDetectionDeploy", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 Edge AI Kit"}]
+}
