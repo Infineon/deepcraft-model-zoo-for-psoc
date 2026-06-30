@@ -15,7 +15,7 @@ Within the different projects you will find:
 
 Most projects support two paths: flash the **pre-built `.hex` firmware** to evaluate the model on hardware right away, or copy the **`fw/` artifacts** into a ModusToolbox™ example application to build custom firmware around the model. See the individual README files for step-by-step instructions, and see the `metadata.json` files to learn more about the kinds of sensors, target devices, and applications.
 
-> **Note**: Models in this repository use different external flash memory configurations. Smaller models are configured to boot from the external QSPI flash (default boot configuration), while larger models use the external OSPI flash. See each model's README for the specific flash configuration required.
+> **Note**: Models in this repository for PSOC™ Edge deployment might use different external flash memory configurations. Smaller models are configured to boot from the external QSPI flash (default boot configuration), while larger models use the external OSPI flash. See each model's README for the specific flash configuration required.
 
 ## 🤝 Contribution
 
