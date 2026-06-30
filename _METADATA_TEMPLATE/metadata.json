@@ -1,0 +1,27 @@
+{
+  "title": "Project Title MAX 40 characters",
+  "description": "Project description MAX 100 characters",
+  "long_description": "Detailed project description: use case, sensor setup, deployment steps, flash configuration (QSPI/OSPI), and recommended path to production.",
+  "sensors": ["Specify sensor(s) used in your project: Microphone, IMU, Camera, etc."],
+  "domain": ["Specify domain(s) of your project: Audio, Voice, Vision, etc."],
+  "application": ["Specify application(s) of your project: Smart Home, Wearables, Appliances, etc."],
+  "use_case": ["Specify use case(s) of your project: Person Detection, Anomaly Detection, etc."],
+  "kit": ["Specify Infineon kit(s) your project is compatible with: PSOC\u2122 Edge Eval Kit, PSOC\u2122 Edge AI Kit, etc."],
+  "device": ["Specify device(s) your project is compatible with: PSOC\u2122 4, PSOC\u2122 6, PSOC\u2122 Edge, AURIX\u2122, etc."],
+  "type": ["Model Deployment"],
+  "workflow": ["ML Deployment"],
+  "thumbnail_image_id": "Image file name for the project thumbnail. Can be selected using the PR Tool.",
+  "main_image_id": "Image file name for the main project image — usually the same as thumbnail_image_id. Can be set up using the PR Tool.",
+  "brand_image_id": "Brand logo file name (e.g. deepcraft.webp for Infineon). Can be set up using the PR Tool.",
+  "brand_url": "Brand URL (e.g. https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions for Infineon). Can be set up using the PR Tool.",
+  "links": ["Set up automatically by the PR Tool (GitHub link for your project)"],
+  "metrics": [
+    {"label": "Inference Time (ms)", "value": "Optional — enter measured inference time"},
+    {"label": "Model Weight (MB)", "value": "Optional — enter model size in MB"},
+    {"label": "Input Layer", "value": "Optional — e.g. 1x416x416x3"},
+    {"label": "Output Layer", "value": "Optional — e.g. 1x5x3549"},
+    {"label": "Compute (MC)", "value": "Optional — enter compute in MC"},
+    {"label": "Energy (mJ)", "value": "Optional — enter energy in mJ"},
+    {"label": "Scratch Pad Size (MB)", "value": "Optional — enter scratch pad size in MB"}
+  ]
+}
