@@ -31,7 +31,7 @@ See: [LICENSE](licenses/LICENSE) for full details.
 All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, etc.) are property of Infineon Technologies AG.
 ### High-Level Flow Diagram
 
-<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="500" height="1000">
+<img src="./readme_assets/Flowchart.png" alt="Radar Entrance Counter Flow Diagram" width="300" height="1000">
 
 ## Pre-requisites
 
@@ -61,6 +61,32 @@ All Infineon product names and trademarks (PSoC™, ModusToolbox™, XENSIV™, 
 Connect to the appropriate serial port (e.g., COM3) to view the dashboard UI.
 
 <img src="readme_assets/Dashboard.png" alt="Radar Entrance Counter Running" width="640" height="480">
+
+## Library Integration
+
+For developers who want to integrate the radar processing functionality into their own ModusToolbox™ application, the radar algorithms are provided as a static library.
+
+### Library Files
+
+The following files are provided in the [fw](fw/) artifacts package:
+
+- `radar_processing.a` – Precompiled radar processing library
+- `radar_processing.h` – Radar signal processing interface
+- `config.h` – Radar configuration file (must be used for correct sensor parameters and processing behavior)
+
+### Integration Steps
+
+1. Copy the library and header files into your ModusToolbox project.
+
+2. Update the project **Makefile** to include the radar_processing library.
+Add the following line:
+LDLIBS += <path_to_library>/radar_processing.a
+
+3.Build the full project
+
+4.Program the application to PSOC 6
+
+5.After integration, the application will use the radar processing library to perform real-time entrance counting. 
 
 ## Kit Placement
 
@@ -109,6 +135,16 @@ For optimal detection and accurate IN/OUT classification, people should walk thr
 Pre-built binaries are available in the [PSOC6_AI_binaries](PSOC6_AI_fw_binary/) directory:
 - `Entrance_counter.hex` - Firmware binary that can be directly flashed onto PSoC™ 6 MCU using ModusToolbox™ Programmer tool
 - `Dashboard.exe` - Windows application for real-time counter display and visualization
+
+### Reference Radar Example
+
+Users can refer to Infineon’s radar SDK examples for correct sensor configuration and integration:
+
+- [**Radar Presence Detection Example**](https://github.com/Infineon/mtb-example-psoc6-radar-presence) (ModusToolbox™)
+- [**XENSIV™ BGT60TR13C Radar code example**](https://github.com/Infineon/arduino-xensiv-radar-sensor-bgt60tr13)
+
+These examples demonstrate proper radar initialization and configuration required for correct operation of this library.
+
  
 For detailed flashing instructions, refer to [**ModusToolbox™ Programmer Documentation**](https://www.infineon.com/row/public/documents/30/44/infineon-modustoolbox-gui-user-guide-usermanual-en.pdf). Connect via serial port (e.g., COM3) post-flash for output visualization.
  
