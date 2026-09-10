@@ -4,7 +4,7 @@
   "long_description": "ResNet50V2 is a deep convolutional neural network designed for accurate image classification. It is an improved version of ResNet50 with better training performance and stability due to improved skip connections. When used with the Food-101 dataset, ResNet50V2 takes food images as input and classifies them into 101 different food categories like pizza, burger, or sushi. It’s commonly used in food recognition apps, smart kitchen systems, and calorie tracking tools. Its importance lies in its high accuracy and ability to handle complex food images, making it valuable for diet monitoring, restaurant automation, and nutrition analysis.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Industrial Automation"],
+  "application": ["Smart Home", "Appliances", "Industrial IoT", "Smart Manufacturing"],
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],

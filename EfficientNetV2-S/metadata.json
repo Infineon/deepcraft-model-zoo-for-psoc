@@ -4,7 +4,7 @@
   "long_description": "EfficientNetV2-S is a fast and accurate convolutional neural network designed for image classification tasks, optimized for both training speed and model performance, commonly used in real-time applications like mobile vision, medical imaging, and defect detection.",
   "sensors": ["Camera"],
   "domain": ["Vision"],
-  "application": ["Smart Home", "Appliances", "Industrial Automation"],
+  "application": ["Smart Home", "Appliances", "Industrial IoT", "Smart Manufacturing"],
   "use_case": ["Object Classification"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
