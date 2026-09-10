@@ -3,7 +3,7 @@
   "description": "Deploy on PSOC\u2122 Edge AI Kit an IMU-based movement pattern classifier.",
   "long_description": "This project shows you how to deploy on PSOC\u2122 Edge AI Kit a model capable of differentiating between 3 different movement types, circle, shaking and stationary, based on IMU (6-axis accelerometer and gyroscope) data. The model is suitable for gestures-based applications.",
   "sensors": ["IMU"],
-  "domain": ["Vibration", "Sensing"],
+  "domain": ["Motion"],
   "application": ["Wearables", "Safety Monitoring", "Healthcare", "Games"],
   "use_case": ["Hand Movement Type Detection"],
   "kit": ["PSOC\u2122 Edge AI Kit"],
