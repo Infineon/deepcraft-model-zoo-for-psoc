@@ -3,7 +3,7 @@
   "description": "Detect and analyze anomalies in voltage and current signals for predictive maintenance and fault prevention.",
   "long_description": "This project enables the deployment of machine learning models to identify anomalies in voltage and current readings from electrical systems. It helps in detecting potential faults, overloads, or abnormal behaviors in industrial equipment, power systems, and embedded devices. The project is designed for real-time monitoring and predictive maintenance applications using voltage and current sensors.",
   "sensors": ["Voltage", "Current"],
-  "domain": ["Electronic Sensing"],
+  "domain": ["Electrical Signals"],
   "application": ["Industrial IoT", "Smart Manufacturing", "Battery Management System (BMS)", "Automotive"],
   "use_case": ["Anomaly Detection", "Fault Detection"],
   "kit": ["PSOC\u2122 6 AI Kit", "PSOC\u2122 Edge AI Kit"],
