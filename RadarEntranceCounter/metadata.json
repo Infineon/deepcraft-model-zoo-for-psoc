@@ -7,7 +7,7 @@
   "application": ["Commercial Building Automation", "Smart Home", "Safety Monitoring"],
   "use_case": ["Entrance Counting", "People Counting", "Entry and Exit Detection", "Occupancy Monitoring"],
   "kit": ["PSOC\u2122 6 AI Kit"],
-  "device": ["PSOC\u2122 6"],
+  "device": ["PSOC\u2122 6", "XENSIVE\u2122 BGT60TR13C"],
   "type": "Model Deployment",
 	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres-GettyImages-Smarthomepanel.webp",
