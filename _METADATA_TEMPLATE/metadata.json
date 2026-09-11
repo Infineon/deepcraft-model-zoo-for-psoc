@@ -3,7 +3,7 @@
   "description": "Project description MAX 100 characters",
   "long_description": "Detailed project description: use case, sensor setup, deployment steps, flash configuration (QSPI/OSPI), and recommended path to production.",
   "sensors": ["Specify sensor(s) used in your project: Microphone, IMU, Camera, etc."],
-  "domain": ["Specify domain(s) of your project: Audio, Voice, Vision, etc."],
+  "domain": ["Specify domain(s) of your project: Audio, Vision, etc."],
   "application": ["Specify application(s) of your project: Smart Home, Wearables, Appliances, etc."],
   "use_case": ["Specify use case(s) of your project: Person Detection, Anomaly Detection, etc."],
   "kit": ["Specify Infineon kit(s) your project is compatible with: PSOC\u2122 Edge Eval Kit, PSOC\u2122 Edge AI Kit, etc."],

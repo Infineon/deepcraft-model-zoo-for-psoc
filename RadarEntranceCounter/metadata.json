@@ -7,7 +7,7 @@
   "application": ["Commercial Building Automation", "Smart Home", "Safety Monitoring"],
   "use_case": ["Entrance Counting", "People Counting", "Entry and Exit Detection", "Occupancy Monitoring"],
   "kit": ["PSOC\u2122 6 AI Kit"],
-  "device": ["PSOC\u2122 6", "XENSIVE\u2122 BGT60TR13C"],
+  "device": ["PSOC\u2122 6", "XENSIVE\u2122 Radar BGT60TR13C"],
   "type": "Model Deployment",
 	"workflow": ["ML Deployment"],
   "thumbnail_image_id": "lowres-GettyImages-Smarthomepanel.webp",
@@ -17,5 +17,3 @@
   "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/RadarEntranceCounter", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 6 AI Eval Kit"},
    {"label": "Learn More", "url": "https://www.wgtech.ai/solutions/privacy-solutions", "heading": "Project Details - WGTech Solutions", "sub-heading": "Learn more about the project and take the next step"}]
 }
-  
-
